@@ -18,7 +18,6 @@ import menuRouter from '../routes/menu.routes.js'
 import catRouter from '../routes/cat.routes.js'
 import dragRouter from '../routes/drag.routes.js'
 import appRouter from '../routes/app.routes.js'
-
 //automatizar tareas con cron
 import cron from 'node-cron'
 import { Op } from 'sequelize'
@@ -27,6 +26,7 @@ class Server {
   constructor() {
     const whitelist = [
       'http://localhost:5173',
+      'http://localhost:5174',
       'https://menutify-f-fuuu.vercel.app',
       'https://front-q-rmenutify.vercel.app'
     ]
