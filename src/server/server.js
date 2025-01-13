@@ -58,7 +58,7 @@ class Server {
     // Configuración de la tarea cron
     // para media noche todos los dias -> 0 0 0 * * *
     // para cada minuto -> * * * * *
-cron.schedule('* * * * *', async() => {
+cron.schedule('0 0 0 * * *', async() => {
   console.log('Iniciando tarea para verificar suscripciones vencidas:', new Date());
   try {
     // Obtener la fecha actual
