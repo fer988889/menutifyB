@@ -26,6 +26,7 @@ class Server {
   constructor() {
     const whitelist = [
       'http://localhost:5173',
+      'http://localhost:5174',
       'https://menutify-f-silk.vercel.app',
       'https://menutify-f-qr.vercel.app'
     ]
