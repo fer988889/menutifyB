@@ -27,8 +27,9 @@ class Server {
   constructor() {
     const whitelist = [
       'http://localhost:5173',
-      'https://menutify-f-fuuu.vercel.app',
-      'https://front-q-rmenutify.vercel.app'
+      'http://localhost:5174',
+      'https://menutify-f-liard.vercel.app',
+      'https://menutify-f-qr.vercel.app'
     ]
     // iniciamos express en una variable
     this.app = express()
